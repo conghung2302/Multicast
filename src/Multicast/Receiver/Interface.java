@@ -69,6 +69,7 @@ public class Interface extends javax.swing.JFrame implements Observer{
     private void btnSendActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSendActionPerformed
         String text = txtChat.getText().trim();
         manager.SendData(text);
+        txtChat.setText("");
     }//GEN-LAST:event_btnSendActionPerformed
 
     /**

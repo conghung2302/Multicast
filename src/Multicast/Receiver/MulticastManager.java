@@ -9,8 +9,8 @@ import java.util.Observer;
 public class MulticastManager extends Observable{
 
     public Thread receiver;
-    public String multicastAddress = "230.0.0.1";
-    public int port = 12345;
+    public String multicastAddress = "224.0.0.2";
+    public int port = 1234;
     MulticastSocket socket;
     InetAddress group;
 
